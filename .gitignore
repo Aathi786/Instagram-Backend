@@ -1,0 +1,42 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Spring Boot
+application-local.properties
+application-prod.properties
+
+# Java
+*.class
