@@ -1,9 +1,10 @@
+
 # Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
 
-# Maven wrapper
-.mvn/wrapper/maven-wrapper.properties
+# Maven Wrapper
+# Keep maven-wrapper.properties tracked because mvnw requires it
 
 # IDE
 .idea/
@@ -34,9 +35,10 @@ Thumbs.db
 .env.*
 !.env.example
 
-# Spring Boot
+# Spring Boot local/production overrides
 application-local.properties
 application-prod.properties
 
-# Java
+# Java compiled files
 *.class
+
