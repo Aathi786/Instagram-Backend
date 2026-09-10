@@ -72,7 +72,9 @@ public class SecurityConfig {
                 new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:5173")
+                List.of("http://localhost:5173",
+                        "https://instagram-frontend-five-mu.vercel.app"
+                )
         );
 
         configuration.setAllowedMethods(

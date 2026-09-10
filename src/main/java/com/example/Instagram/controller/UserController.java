@@ -8,7 +8,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {
+        "http://localhost:5173",
+        "https://instagram-frontend-five-mu.vercel.app"
+})
 public class UserController {
 
     private final UserService userService;
